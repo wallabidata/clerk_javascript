@@ -26,7 +26,8 @@ export const createDevBrowserCookie = (cookieSuffix: string): DevBrowserCookieHa
 
   const set = (jwt: string) => {
     const expires = addYears(Date.now(), 1);
-    const sameSite = inCrossOriginIframe() ? 'None' : 'Lax';
+    // WAL-1190 - Set sameSite to 'None' in all cases
+    const sameSite = inCrossOriginIframe() ? 'None' : 'None';
     const secure = getSecureAttribute(sameSite);
 
     suffixedDevBrowserCookie.set(jwt, { expires, sameSite, secure });
