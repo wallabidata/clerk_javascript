@@ -1,5 +1,99 @@
 # Change Log
 
+## 2.2.1
+
+### Patch Changes
+
+- Updated dependencies [[`3113059ad7a6d36689a59d3e886bad654d88e79d`](https://github.com/clerk/javascript/commit/3113059ad7a6d36689a59d3e886bad654d88e79d), [`2179690c10a61b117e82fdd566b34939f4d28bc1`](https://github.com/clerk/javascript/commit/2179690c10a61b117e82fdd566b34939f4d28bc1), [`bdb537a9902c0f0ae58ca1d4b7590d929f28fedb`](https://github.com/clerk/javascript/commit/bdb537a9902c0f0ae58ca1d4b7590d929f28fedb)]:
+  - @clerk/clerk-js@5.49.0
+  - @clerk/clerk-react@5.22.6
+  - @clerk/shared@2.20.14
+
+## 2.2.0
+
+### Minor Changes
+
+- Add experimental support for listening to cookie changes on a synced host via the `__experimental_syncHostListener` ([#4962](https://github.com/clerk/javascript/pull/4962)) by [@tmilewski](https://github.com/tmilewski)
+
+### Patch Changes
+
+- Updated dependencies [[`3c6d8159cb1021927c0d581a8feb93345913005f`](https://github.com/clerk/javascript/commit/3c6d8159cb1021927c0d581a8feb93345913005f), [`442d23afddb6bd0a4539fdb876191d66b834a276`](https://github.com/clerk/javascript/commit/442d23afddb6bd0a4539fdb876191d66b834a276), [`f87ede848265d75ea1e880a3ab80c53a250f42cf`](https://github.com/clerk/javascript/commit/f87ede848265d75ea1e880a3ab80c53a250f42cf), [`6126cc98281bca96797fd8a55b6ec6aeda397e46`](https://github.com/clerk/javascript/commit/6126cc98281bca96797fd8a55b6ec6aeda397e46), [`6e096564a459db4eaf953e99e570905b10be6c84`](https://github.com/clerk/javascript/commit/6e096564a459db4eaf953e99e570905b10be6c84), [`f69ce570f89c82ba3206b976b5b35bbcf7c1077a`](https://github.com/clerk/javascript/commit/f69ce570f89c82ba3206b976b5b35bbcf7c1077a), [`e0dbdc61ba20ff319603b57dab7799a7d743544b`](https://github.com/clerk/javascript/commit/e0dbdc61ba20ff319603b57dab7799a7d743544b)]:
+  - @clerk/clerk-js@5.48.0
+  - @clerk/shared@2.20.13
+  - @clerk/clerk-react@5.22.5
+
+## 2.1.17
+
+### Patch Changes
+
+- Updated dependencies [[`b55db4db89a7549465101850e474a52e9346f441`](https://github.com/clerk/javascript/commit/b55db4db89a7549465101850e474a52e9346f441), [`5bbb05365227862f8256f5a1fa0212fd28a8af67`](https://github.com/clerk/javascript/commit/5bbb05365227862f8256f5a1fa0212fd28a8af67), [`00148b871d920dc10c9343f6bd15c2844db7c19c`](https://github.com/clerk/javascript/commit/00148b871d920dc10c9343f6bd15c2844db7c19c), [`c4cad79cb45fd9d2818c5ffafcedb0e8c26f2f6b`](https://github.com/clerk/javascript/commit/c4cad79cb45fd9d2818c5ffafcedb0e8c26f2f6b), [`9da41ce2fef73f411648eb6faa0dc579fae2b114`](https://github.com/clerk/javascript/commit/9da41ce2fef73f411648eb6faa0dc579fae2b114), [`4427c4702f64d4f28f7564ce5889d41e260aa519`](https://github.com/clerk/javascript/commit/4427c4702f64d4f28f7564ce5889d41e260aa519), [`69734a2624de704b12a31d5737e2f22f9050df25`](https://github.com/clerk/javascript/commit/69734a2624de704b12a31d5737e2f22f9050df25)]:
+  - @clerk/clerk-js@5.47.0
+  - @clerk/clerk-react@5.22.4
+  - @clerk/shared@2.20.12
+
+## 2.1.16
+
+### Patch Changes
+
+- Updated dependencies [[`2a3cb5b3b35adfd618a3df2f490b0a8988523ded`](https://github.com/clerk/javascript/commit/2a3cb5b3b35adfd618a3df2f490b0a8988523ded), [`418ec5c62c4eb600566faab07684c068a29007e3`](https://github.com/clerk/javascript/commit/418ec5c62c4eb600566faab07684c068a29007e3), [`96168706ac285381928786840a5d72655a739f7a`](https://github.com/clerk/javascript/commit/96168706ac285381928786840a5d72655a739f7a)]:
+  - @clerk/clerk-js@5.46.0
+  - @clerk/clerk-react@5.22.3
+  - @clerk/shared@2.20.11
+
+## 2.1.15
+
+### Patch Changes
+
+- Standardizing ambient declaration files for all SDKs ([#4919](https://github.com/clerk/javascript/pull/4919)) by [@jacekradko](https://github.com/jacekradko)
+
+- Updated dependencies [[`3e19492608e9ee2b3b58e9ba220ea93d1b3a6cf1`](https://github.com/clerk/javascript/commit/3e19492608e9ee2b3b58e9ba220ea93d1b3a6cf1), [`fdbcfd64590251402c0c490f68345e46e46e2ad4`](https://github.com/clerk/javascript/commit/fdbcfd64590251402c0c490f68345e46e46e2ad4), [`9eef7713212378351e8e01628611eaa18de250e8`](https://github.com/clerk/javascript/commit/9eef7713212378351e8e01628611eaa18de250e8)]:
+  - @clerk/clerk-js@5.45.2
+  - @clerk/shared@2.20.10
+  - @clerk/clerk-react@5.22.2
+
+## 2.1.14
+
+### Patch Changes
+
+- Updated dependencies [[`b9936782a97319afba4922761c798d1f6faab8e8`](https://github.com/clerk/javascript/commit/b9936782a97319afba4922761c798d1f6faab8e8), [`93e30cef512ebc91aa9d61926584948d15632304`](https://github.com/clerk/javascript/commit/93e30cef512ebc91aa9d61926584948d15632304), [`27fb70a2534ecfc6d2573ba65fb32be2786b9d30`](https://github.com/clerk/javascript/commit/27fb70a2534ecfc6d2573ba65fb32be2786b9d30)]:
+  - @clerk/clerk-js@5.45.1
+  - @clerk/clerk-react@5.22.1
+  - @clerk/shared@2.20.9
+
+## 2.1.13
+
+### Patch Changes
+
+- Updated dependencies [[`aa48b1f9e890b2402e9d05989a4820141076f7bf`](https://github.com/clerk/javascript/commit/aa48b1f9e890b2402e9d05989a4820141076f7bf), [`53bd34fff38b17498edf66cc4bc2d42d707f28dc`](https://github.com/clerk/javascript/commit/53bd34fff38b17498edf66cc4bc2d42d707f28dc)]:
+  - @clerk/clerk-js@5.45.0
+  - @clerk/clerk-react@5.22.0
+  - @clerk/shared@2.20.8
+
+## 2.1.12
+
+### Patch Changes
+
+- Fix issue "Including remotely hosted code in a Manifest V3 item" that you might have seen during audit. The affected code is now bundled with the package and as such any offending code properly tree-shaken. ([#4899](https://github.com/clerk/javascript/pull/4899)) by [@LekoArts](https://github.com/LekoArts)
+
+- Updated dependencies [[`f87733719f6961640c159a6ca82d4c3edfd087dd`](https://github.com/clerk/javascript/commit/f87733719f6961640c159a6ca82d4c3edfd087dd), [`43ba06329fb452cdbb3bb766b660dd2371dcf502`](https://github.com/clerk/javascript/commit/43ba06329fb452cdbb3bb766b660dd2371dcf502)]:
+  - @clerk/clerk-js@5.44.1
+  - @clerk/clerk-react@5.21.3
+  - @clerk/shared@2.20.7
+
+## 2.1.11
+
+### Patch Changes
+
+- Updated dependencies [[`7cc1b3ab472d9ed55ab0e7fa2195354c77482de9`](https://github.com/clerk/javascript/commit/7cc1b3ab472d9ed55ab0e7fa2195354c77482de9), [`d5c48412d0bef75c79dedecb20cee75b7d476eb7`](https://github.com/clerk/javascript/commit/d5c48412d0bef75c79dedecb20cee75b7d476eb7)]:
+  - @clerk/clerk-js@5.44.0
+
+## 2.1.10
+
+### Patch Changes
+
+- Updated dependencies [[`099496341a052ecb6989848a00c3c07f61b1b174`](https://github.com/clerk/javascript/commit/099496341a052ecb6989848a00c3c07f61b1b174)]:
+  - @clerk/clerk-js@5.43.7
+
 ## 2.1.9
 
 ### Patch Changes
